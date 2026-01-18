@@ -1,3 +1,11 @@
+ # Ignore compiled files
 bin/
 *.class
 *.log
+
+# Ignore Eclipse project files
+Task1/.git
+Task2/.git
+.settings/
+.classpath
+.project
