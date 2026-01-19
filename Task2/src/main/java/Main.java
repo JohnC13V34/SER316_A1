@@ -12,7 +12,7 @@ public class Main {
         boolean playAgain = true;
         while (playAgain) {
             ui.start();
-
+//Add code for an option for one retry if user accidently hits a wrong input. 
             if (!engine.hasUserQuit()) {
                 System.out.print("Play again? (y/n): ");
                 String response = scanner.nextLine().trim().toLowerCase();
