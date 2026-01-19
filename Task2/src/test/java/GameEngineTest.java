@@ -1,6 +1,14 @@
+package test;
+
+
 import org.junit.jupiter.api.Test;
+
+import main.*;
+
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
+
+
 
 public class GameEngineTest {
     private GameEngine engine;
