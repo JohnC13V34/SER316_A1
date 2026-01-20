@@ -18,8 +18,8 @@ String name;
                   
                   
                   */
-                
-                JOptionPane.showMessageDialog(null,Local.getString("Aun no podemos importar su documento"));
+                //Language changed-- Charles Watari
+                JOptionPane.showMessageDialog(null,Local.getString("We are not yet able to import your document."));
                 return true;
         }
         
