@@ -102,7 +102,7 @@ public class ProjectsPanel extends JPanel implements ExpandablePanel {
 		topBar.setBackground(new Color(215, 225, 250));
 		topBar.setAlignmentX((float) 0.0);
 		topBar.setFloatable(false);
-		toolbarPanel.setLayout(borderLayout2);
+		toolbarPanel.setLayout(borderLayout2); 
 		toggleButton.setMaximumSize(new Dimension(20, 20));
 		toggleButton.setMinimumSize(new Dimension(20, 20));
 		toggleButton.setOpaque(false);

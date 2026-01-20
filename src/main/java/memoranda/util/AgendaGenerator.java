@@ -287,7 +287,7 @@ public class AgendaGenerator {
 		String s =
 				"<td width=\"66%\" valign=\"top\">"
 						+ "<h1>"
-						+ Local.getString("Projects and tasks")
+						+ Local.getString("Projects and Tasks")
 						+ "</h1>\n";
 		s += generateProjectInfo(CurrentProject.get(), date, expandedTasks);        
 		for (Iterator i = ProjectManager.getActiveProjects().iterator();
@@ -335,7 +335,7 @@ public class AgendaGenerator {
 				}
 			}
 			String icon =
-					"<img align=\"right\" width=\"16\" height=\"16\" src=\""
+					"<img align=\"right\" width=\"20\" height=\"16\" src=\""
 							+ iurl
 							+ "\" border=\"0\"  hspace=\"0\" vspace=\"0\" alt=\"\">";
 

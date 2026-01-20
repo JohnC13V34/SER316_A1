@@ -62,7 +62,8 @@ public class WorkPanel extends JPanel {
 
 		this.setLayout(borderLayout1);
 		toolBar.setOrientation(JToolBar.VERTICAL);
-		toolBar.setBackground(Color.white);
+		//Changed color from white to green Charles Watari
+		toolBar.setBackground(Color.green);
 
 		toolBar.setBorderPainted(false);
 		toolBar.setFloatable(false);

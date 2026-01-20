@@ -64,34 +64,35 @@ public class EventsPanel extends JPanel {
     void jbInit() throws Exception {
         eventsToolBar.setFloatable(false);
 
+        //Doubled the width of all buttons on events page Charles Watari
         historyBackB.setAction(History.historyBackAction);
         historyBackB.setFocusable(false);
         historyBackB.setBorderPainted(false);
         historyBackB.setToolTipText(Local.getString("History back"));
         historyBackB.setRequestFocusEnabled(false);
-        historyBackB.setPreferredSize(new Dimension(24, 24));
-        historyBackB.setMinimumSize(new Dimension(24, 24));
-        historyBackB.setMaximumSize(new Dimension(24, 24));
+        historyBackB.setPreferredSize(new Dimension(50, 24));
+        historyBackB.setMinimumSize(new Dimension(50, 24));
+        historyBackB.setMaximumSize(new Dimension(50, 24));
         historyBackB.setText("");
 
         historyForwardB.setAction(History.historyForwardAction);
         historyForwardB.setBorderPainted(false);
         historyForwardB.setFocusable(false);
-        historyForwardB.setPreferredSize(new Dimension(24, 24));
+        historyForwardB.setPreferredSize(new Dimension(50, 24));
         historyForwardB.setRequestFocusEnabled(false);
         historyForwardB.setToolTipText(Local.getString("History forward"));
-        historyForwardB.setMinimumSize(new Dimension(24, 24));
-        historyForwardB.setMaximumSize(new Dimension(24, 24));
+        historyForwardB.setMinimumSize(new Dimension(50, 24));
+        historyForwardB.setMaximumSize(new Dimension(50, 24));
         historyForwardB.setText("");
 
         newEventB.setIcon(
             new ImageIcon(memoranda.ui.AppFrame.class.getResource("/ui/icons/event_new.png")));
         newEventB.setEnabled(true);
-        newEventB.setMaximumSize(new Dimension(24, 24));
-        newEventB.setMinimumSize(new Dimension(24, 24));
+        newEventB.setMaximumSize(new Dimension(50, 24));
+        newEventB.setMinimumSize(new Dimension(50, 24));
         newEventB.setToolTipText(Local.getString("New event"));
         newEventB.setRequestFocusEnabled(false);
-        newEventB.setPreferredSize(new Dimension(24, 24));
+        newEventB.setPreferredSize(new Dimension(50, 24));
         newEventB.setFocusable(false);
         newEventB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -107,11 +108,11 @@ public class EventsPanel extends JPanel {
                 editEventB_actionPerformed(e);
             }
         });
-        editEventB.setPreferredSize(new Dimension(24, 24));
+        editEventB.setPreferredSize(new Dimension(50, 24));
         editEventB.setRequestFocusEnabled(false);
         editEventB.setToolTipText(Local.getString("Edit event"));
-        editEventB.setMinimumSize(new Dimension(24, 24));
-        editEventB.setMaximumSize(new Dimension(24, 24));
+        editEventB.setMinimumSize(new Dimension(50, 24));
+        editEventB.setMaximumSize(new Dimension(50, 24));
         editEventB.setEnabled(true);
         editEventB.setIcon(
             new ImageIcon(memoranda.ui.AppFrame.class.getResource("/ui/icons/event_edit.png")));
@@ -123,11 +124,11 @@ public class EventsPanel extends JPanel {
                 removeEventB_actionPerformed(e);
             }
         });
-        removeEventB.setPreferredSize(new Dimension(24, 24));
+        removeEventB.setPreferredSize(new Dimension(50, 24));
         removeEventB.setRequestFocusEnabled(false);
         removeEventB.setToolTipText(Local.getString("Remove event"));
-        removeEventB.setMinimumSize(new Dimension(24, 24));
-        removeEventB.setMaximumSize(new Dimension(24, 24));
+        removeEventB.setMinimumSize(new Dimension(50, 24));
+        removeEventB.setMaximumSize(new Dimension(50, 24));
         removeEventB.setIcon(
             new ImageIcon(memoranda.ui.AppFrame.class.getResource("/ui/icons/event_remove.png")));
 

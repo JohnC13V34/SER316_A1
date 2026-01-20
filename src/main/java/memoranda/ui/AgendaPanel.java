@@ -50,7 +50,8 @@ public class AgendaPanel extends JPanel {
 	JButton historyForwardB = new JButton();
 	JButton export = new JButton();
 	JEditorPane viewer = new JEditorPane("text/html", "");
-	String[] priorities = {"Muy Alta","Alta","Media","Baja","Muy Baja"};
+	//Changed Language from Spanish to English Charles Watari
+	String[] priorities = {"Very High","High","Medium","Low","Very Low"};
 	JScrollPane scrollPane = new JScrollPane();
 
 	DailyItemsPanel parentPanel = null;
