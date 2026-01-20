@@ -54,7 +54,7 @@ public class ExportSticker {
             }
             return output;
         }
-        
+        //Changed output messages to English: Charles Watari
         public boolean export(String src){
                 boolean result = true;
                 String fs = System.getProperty("file.separator");
@@ -69,12 +69,12 @@ public class ExportSticker {
                         fwrite.write(contents);
                         
                         fwrite.close();
-                        JOptionPane.showMessageDialog(null,Local.getString("Documento creado con exito en su carpeta Memoranda =D"));
+                        JOptionPane.showMessageDialog(null,Local.getString("Document successfully created in your Memoranda folder =D"));
             
             
         } catch (IOException e) {
             e.printStackTrace();
-            JOptionPane.showMessageDialog(null,Local.getString("NO Logramos crear su documento =(..."));
+            JOptionPane.showMessageDialog(null,Local.getString("We were unable to create your document =(..."));
         }
                 
                 
